@@ -52,25 +52,44 @@ def map_store_columns(df):
         ],
         "transaction_id": [
             "transaction_id", "order_id", "invoice_no", "invoice_id",
-            "receipt_id", "bill_id", "order_number", "trans_id", "id"
+            "receipt_id", "bill_id", "order_number", "trans_id"
         ]
     }
 
     mapping = {}
     normalized_cols = {col.lower().strip().replace(" ", "_"): col for col in df.columns}
 
+    excluded_from_trans = ["employee_id", "empid", "emp_id", "staff_id", "patient_id", "student_id"]
+    excluded_from_date = ["joining_date", "leaving_date", "hire_date", "exit_date", "birth_date", "dob"]
+    excluded_from_sales = ["salary", "wage", "payroll", "stipend"]
+
     for key, aliases in column_aliases.items():
         found_col = None
         # 1. Exact alias match
         for alias in aliases:
             if alias in normalized_cols:
+                norm_cand = alias
+                if key == "transaction_id" and any(exc in norm_cand for exc in excluded_from_trans):
+                    continue
+                if key == "date" and any(exc in norm_cand for exc in excluded_from_date):
+                    continue
+                if key in ["revenue", "price", "cost"] and any(exc in norm_cand for exc in excluded_from_sales):
+                    continue
                 found_col = normalized_cols[alias]
                 break
+
         # 2. Substring fallback match if not yet found
         if not found_col:
             for norm_name, original_name in normalized_cols.items():
+                if key == "transaction_id" and any(exc in norm_name for exc in excluded_from_trans):
+                    continue
+                if key == "date" and any(exc in norm_name for exc in excluded_from_date):
+                    continue
+                if key in ["revenue", "price", "cost"] and any(exc in norm_name for exc in excluded_from_sales):
+                    continue
+
                 for alias in aliases:
-                    if alias in norm_name and original_name not in mapping.values():
+                    if len(alias) >= 3 and alias in norm_name and original_name not in mapping.values():
                         found_col = original_name
                         break
                 if found_col:

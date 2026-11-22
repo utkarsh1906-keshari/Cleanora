@@ -16,12 +16,11 @@ def map_healthcare_columns(df):
     """
     column_aliases = {
         "patient_id": [
-            "patient_id", "patientid", "pid", "mrn", "id", "patient_no",
+            "patient_id", "patientid", "pid", "mrn", "patient_no",
             "patient_number", "pat_id", "subject_id", "member_id"
         ],
         "patient_name": [
-            "patient_name", "patientname", "name", "full_name",
-            "pat_name", "patient", "client_name"
+            "patient_name", "patientname", "pat_name", "patient", "client_name"
         ],
         "age": [
             "age", "patient_age", "patientage", "years", "pat_age"
@@ -31,7 +30,7 @@ def map_healthcare_columns(df):
         ],
         "department": [
             "department", "speciality", "specialty", "ward", "clinic",
-            "unit", "medical_specialty", "dept", "service", "division"
+            "medical_specialty", "dept", "service"
         ],
         "doctor": [
             "doctor_name", "doctor", "physician", "provider", "physician_name",
@@ -39,49 +38,68 @@ def map_healthcare_columns(df):
         ],
         "appointment_date": [
             "appointment_date", "visit_date", "appt_date", "consultation_date",
-            "date", "encounter_date", "checkup_date", "booking_date"
+            "encounter_date", "checkup_date", "booking_date"
         ],
         "appointment_status": [
-            "appointment_status", "status", "appt_status", "visit_status",
-            "state", "outcome_status", "booking_status"
+            "appointment_status", "appt_status", "visit_status",
+            "outcome_status", "booking_status"
         ],
         "diagnosis": [
             "diagnosis", "condition", "disease", "primary_diagnosis",
-            "icd10", "illness", "problem", "health_condition", "clinical_diagnosis"
+            "icd10", "illness", "health_condition", "clinical_diagnosis"
         ],
         "treatment": [
             "treatment", "procedure", "medication", "therapy",
             "intervention", "treatment_plan", "prescription", "care_plan"
         ],
         "admission_date": [
-            "admission_date", "admitted_date", "admission", "date_admitted",
-            "hospital_admission", "inpatient_date", "admit_date"
+            "admission_date", "admitted_date", "hospital_admission", "inpatient_date", "admit_date"
         ],
         "discharge_date": [
-            "discharge_date", "discharged_date", "discharge", "date_discharged",
-            "hospital_discharge", "outpatient_date", "disch_date"
+            "discharge_date", "discharged_date", "hospital_discharge", "outpatient_date", "disch_date"
         ],
         "billing": [
-            "billing_amount", "billing", "charges", "cost", "total_bill",
-            "fee", "amount", "total_cost", "charge", "invoice_amount"
+            "billing_amount", "billing", "charges", "hospital_bill", "total_bill",
+            "medical_charges", "patient_bill", "treatment_cost", "total_charges"
         ]
     }
 
     mapping = {}
     normalized_cols = {col.lower().strip().replace(" ", "_"): col for col in df.columns}
 
+    # Explicit exclusions for non-clinical columns
+    excluded_from_patient_id = ["employee_id", "empid", "emp_id", "staff_id", "student_id", "order_id", "trans_id", "transaction_id"]
+    excluded_from_appts = ["joining_date", "leaving_date", "hire_date", "exit_date", "order_date", "invoice_date"]
+    excluded_from_billing = ["salary", "wage", "payroll", "cogs", "inventory_cost"]
+
     for key, aliases in column_aliases.items():
         found_col = None
         # 1. Exact alias match
         for alias in aliases:
             if alias in normalized_cols:
-                found_col = normalized_cols[alias]
+                norm_cand = alias
+                orig_cand = normalized_cols[alias]
+                if key == "patient_id" and any(exc in norm_cand for exc in excluded_from_patient_id):
+                    continue
+                if key in ["appointment_date", "admission_date"] and any(exc in norm_cand for exc in excluded_from_appts):
+                    continue
+                if key == "billing" and any(exc in norm_cand for exc in excluded_from_billing):
+                    continue
+                found_col = orig_cand
                 break
-        # 2. Substring fallback match
+
+        # 2. Substring fallback match (only if alias is at least 3 characters and not a generic word)
         if not found_col:
             for norm_name, original_name in normalized_cols.items():
+                if key == "patient_id" and any(exc in norm_name for exc in excluded_from_patient_id):
+                    continue
+                if key in ["appointment_date", "admission_date", "discharge_date"] and any(exc in norm_name for exc in excluded_from_appts):
+                    continue
+                if key == "billing" and any(exc in norm_name for exc in excluded_from_billing):
+                    continue
+
                 for alias in aliases:
-                    if alias in norm_name and original_name not in mapping.values():
+                    if len(alias) >= 3 and alias in norm_name and original_name not in mapping.values():
                         found_col = original_name
                         break
                 if found_col:
@@ -91,11 +109,14 @@ def map_healthcare_columns(df):
             mapping[key] = found_col
 
     detected = list(mapping.keys())
-    missing_critical = [k for k in ["patient_id"] if k not in mapping]
-    if "patient_id" not in mapping and "patient_name" in mapping:
-        missing_critical = [] # patient_name can serve as identification
-    if not any(k in mapping for k in ["department", "diagnosis", "doctor", "appointment_date"]):
-        missing_critical.append("clinical context (e.g. department, diagnosis, or doctor)")
+    missing_critical = []
+    if "patient_id" not in mapping and "patient_name" not in mapping:
+        missing_critical.append("patient_id")
+    
+    # Check for genuine clinical context
+    has_clinical_context = any(k in mapping for k in ["diagnosis", "treatment", "doctor", "admission_date", "discharge_date"]) or ("patient_id" in mapping and "appointment_date" in mapping)
+    if not has_clinical_context:
+        missing_critical.append("clinical context (e.g. diagnosis, treatment, doctor, or admission date)")
 
     return {
         "mapping": mapping,

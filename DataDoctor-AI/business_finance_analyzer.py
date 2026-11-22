@@ -15,7 +15,7 @@ def map_business_finance_columns(df):
     """
     column_aliases = {
         "transaction_id": [
-            "transaction_id", "invoice_id", "order_id", "txn_id", "id",
+            "transaction_id", "invoice_id", "order_id", "txn_id",
             "trans_id", "receipt_no", "bill_id", "reference_no", "invoice_no"
         ],
         "date": [
@@ -70,16 +70,28 @@ def map_business_finance_columns(df):
     mapping = {}
     normalized_cols = {col.lower().strip().replace(" ", "_"): col for col in df.columns}
 
+    excluded_from_trans = ["employee_id", "empid", "emp_id", "staff_id", "patient_id", "student_id"]
+    excluded_from_date = ["joining_date", "leaving_date", "hire_date", "exit_date", "birth_date"]
+
     for key, aliases in column_aliases.items():
         found_col = None
         for alias in aliases:
             if alias in normalized_cols:
+                norm_cand = alias
+                if key == "transaction_id" and any(exc in norm_cand for exc in excluded_from_trans):
+                    continue
+                if key == "date" and any(exc in norm_cand for exc in excluded_from_date):
+                    continue
                 found_col = normalized_cols[alias]
                 break
         if not found_col:
             for norm_name, original_name in normalized_cols.items():
+                if key == "transaction_id" and any(exc in norm_name for exc in excluded_from_trans):
+                    continue
+                if key == "date" and any(exc in norm_name for exc in excluded_from_date):
+                    continue
                 for alias in aliases:
-                    if alias in norm_name and original_name not in mapping.values():
+                    if len(alias) >= 3 and alias in norm_name and original_name not in mapping.values():
                         found_col = original_name
                         break
                 if found_col:
