@@ -1,0 +1,22 @@
+Employee_ID,Name,Age,Department,Salary,Joining_Date,Leaving_Date,Email
+101,Aarav Sharma,24.0,IT,45000.0,2022-06-15,,aarav@example.com
+102,Diya Verma,29.0,HR,52000.0,2021-03-10,,diya@example.com
+103,Kabir Singh,31.0,Finance,61000.0,2020-01-20,2023-12-31,kabir@example.com
+104,Ananya Gupta,26.0,IT,48000.0,2023-02-01,,ananya@example.com
+105,Rohan Mehta,42.0,Sales,72000.0,2018-08-12,,rohan@example.com
+106,Meera Joshi,27.0,Marketing,50000.0,2022-11-05,,meera@example.com
+107,Ishaan Patel,35.0,IT,68000.0,2019-04-18,,ishaan@example.com
+108,Sara Khan,23.0,HR,43000.0,2024-01-10,,sara@example.com
+109,Arjun Rao,30.0,Finance,59000.0,2021-09-22,2020-09-22,arjun@example.com
+110,Tara Kapoor,28.0,Marketing,54000.0,2022-04-14,,tara@example.com
+111,Vivaan Das,25.0,IT,47000.0,2023-07-03,,vivaan@example.com
+112,Myra Sen,33.0,Sales,65000.0,2019-10-30,,myra@example.com
+113,Aditya Nair,27.0,Finance,,2022-02-17,,aditya@example.com
+114,Kiara Malhotra,22.0,HR,41000.0,2024-05-06,,kiara@example.com
+115,Reyansh Bose,38.0,Sales,980000.0,2017-12-01,,reyansh@example.com
+116,Saanvi Iyer,,Marketing,51000.0,2021-06-21,,saanvi@example.com
+117,Atharv Jain,29.0,IT,56000.0,2020-03-16,,atharv@example.com
+118,Navya Reddy,32.0,Finance,62000.0,2019-07-11,,navya@example.com
+119,Dhruv Bhatia,26.0,Sales,49000.0,2023-09-08,,dhruv@example.com
+120,Anika Roy,24.0,Marketing,46000.0,2022-12-19,,anika@example.com
+104,Ananya Gupta,26.0,IT,48000.0,2023-02-01,,ananya@example.com

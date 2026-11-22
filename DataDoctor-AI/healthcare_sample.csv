@@ -1,0 +1,113 @@
+Patient_ID,Patient_Name,Age,Gender,Department,Doctor_Name,Appointment_Date,Appointment_Status,Diagnosis,Treatment,Admission_Date,Discharge_Date,Billing_Amount
+PAT-1001,Christopher Brown,49,Male,Cardiology,Dr. Elena Rossi,2026-01-18,Completed,Hypertension,Beta-Blocker Titration,,,141.75
+PAT-1002,Michael Davis,71,Male,Cardiology,Dr. Robert Wilson,2026-02-27,Completed,Hypertension,Medication Therapy,,,368.38
+PAT-1003,John Miller,29,Female,Oncology,Dr. Katherine Adams,2026-01-13,Completed,Colorectal Polyp,Supportive Oncology,2026-01-13,2026-01-14,2433.32
+PAT-1004,Sandra Gonzalez,64,Male,Neurology,Dr. Michael Chang,2026-01-09,Completed,Epilepsy,Anti-Seizure Medication,,,744.38
+PAT-1005,Margaret Brown,76,Female,General Medicine,Dr. Marcus Vance,2026-01-21,Completed,Pneumonia,Dietary Consultation,2026-01-21,2026-02-01,28611.01
+PAT-1006,Jennifer Moore,77,Female,Orthopedics,Dr. David Miller,2026-02-04,Pending,Osteoarthritis,Arthroscopic Surgery,,,680.87
+PAT-1007,Mary Davis,69,Female,Cardiology,Dr. Elena Rossi,2026-01-09,Completed,Arrhythmia,Medication Therapy,,,408.81
+PAT-1008,Sandra Lee,51,Male,Dermatology,Dr. Lisa Ray,2026-02-01,Completed,Psoriasis,Phototherapy,,,775.41
+PAT-1009,Richard Lopez,83,Female,Orthopedics,Dr. David Miller,2026-01-12,Completed,Fracture - Tibia,Cast Immobilization,,,698.22
+PAT-1010,Susan Martin,66,Female,Neurology,Dr. Michael Chang,2026-03-09,Completed,Migraine,Pain Management,,,617.65
+PAT-1011,Sarah Harris,32,Female,Emergency,Dr. Sarah Jenkins,2026-02-25,Completed,Acute Trauma,IV Fluid Resuscitation,,,312.27
+PAT-1012,Thomas Harris,15,Female,Pediatrics,Dr. Ananya Sharma,2026-03-06,Completed,Viral Infection,Pediatric Observation,,,513.75
+PAT-1013,Matthew Taylor,145,Male,Cardiology,Dr. Elena Rossi,2026-01-15,Cancelled,Arrhythmia,Medication Therapy,,,760.95
+PAT-1014,Robert Williams,34,Male,Dermatology,Dr. Lisa Ray,2026-03-02,Cancelled,Contact Dermatitis,Cryotherapy,,,562.81
+PAT-1015,Michael Moore,69,Female,Orthopedics,Dr. David Miller,2026-02-26,Completed,Spinal Stenosis,Cast Immobilization,2026-02-26,2026-02-28,5106.22
+PAT-1016,Linda Jackson,27,Male,Orthopedics,Dr. David Miller,2026-01-30,Completed,Fracture - Tibia,Physical Therapy,2026-01-30,2026-02-03,9265.81
+PAT-1017,Sarah Jones,78,Female,Dermatology,Dr. Lisa Ray,2026-01-25,Completed,Skin Lesion,Cryotherapy,,,460.93
+PAT-1018,Lisa Johnson,69,Female,Neurology,Dr. Michael Chang,2026-01-14,Completed,Epilepsy,Pain Management,,,427.97
+PAT-1019,David Anderson,74,,Orthopedics,Dr. David Miller,2026-01-07,Completed,Fracture - Tibia,Cast Immobilization,,,739.55
+PAT-1020,Jennifer Wilson,45,Female,Dermatology,Dr. Lisa Ray,2026-01-08,Completed,Eczema,Cryotherapy,2026-01-08,2026-01-21,24128.95
+PAT-1021,Daniel White,42,Female,Dermatology,Dr. Lisa Ray,2026-01-28,Pending,Eczema,Phototherapy,,,156.6
+PAT-1022,Jessica Taylor,10,Male,Pediatrics,Dr. Ananya Sharma,2026-01-24,Completed,Acute Bronchitis,Nebulizer Therapy,,,414.76
+PAT-1023,Mark Jackson,28,Female,Orthopedics,Dr. David Miller,2026-03-16,Completed,Ligament Tear,Physical Therapy,2026-03-16,2026-03-28,21730.96
+PAT-1024,John Perez,58,Male,Emergency,Dr. Sarah Jenkins,2026-01-02,Completed,Acute Trauma,Emergency Stabilization,,,489.3
+PAT-1025,John Lopez,65,Female,Neurology,Dr. Michael Chang,2026-01-21,Completed,Neuropathy,Pain Management,,,709.18
+PAT-1026,Thomas Smith,35,Female,Emergency,Dr. James Patel,2026-01-15,Completed,Chest Pain,Surgical Intervention,2026-01-15,2026-01-19,6673.1
+PAT-1027,Christopher Rodriguez,24,Male,Dermatology,Dr. Lisa Ray,2026-02-24,Completed,Eczema,Topical Corticosteroid,2026-02-24,2026-02-27,5407.49
+PAT-1028,Lisa Anderson,-3,Male,General Medicine,Dr. Sarah Jenkins,2026-01-20,Completed,Influenza,Dietary Consultation,,,433.74
+PAT-1029,Mary Martinez,63,Male,Oncology,Dr. Katherine Adams,2026-02-01,Completed,Colorectal Polyp,Supportive Oncology,,,416.66
+PAT-1030,Karen White,15,Male,Pediatrics,Dr. Ananya Sharma,2026-01-23,Completed,Acute Bronchitis,Antibiotic Course,,,362.5
+PAT-1031,Sandra Wilson,38,Male,Orthopedics,Dr. David Miller,2026-02-18,Completed,Spinal Stenosis,Cast Immobilization,2026-02-18,2026-02-26,24697.87
+PAT-1032,Margaret Davis,42,Female,Orthopedics,Dr. David Miller,2026-02-12,Completed,Fracture - Tibia,Physical Therapy,,,491.87
+PAT-1033,Nancy Moore,32,Female,Oncology,Dr. Katherine Adams,2026-01-23,Completed,Colorectal Polyp,Chemotherapy Protocol,2026-01-23,2026-01-30,21061.49
+PAT-1034,Susan Martin,42,Female,Neurology,Dr. Michael Chang,2026-01-06,Completed,,Pain Management,,,513.07
+PAT-1035,Lisa White,73,Male,Orthopedics,Dr. David Miller,2026-02-12,Completed,Fracture - Tibia,Arthroscopic Surgery,,,490.2
+PAT-1036,Nancy Wilson,55,Male,Oncology,Dr. Katherine Adams,2026-01-25,Completed,Leukemia Monitoring,Supportive Oncology,,,247.04
+PAT-1037,Charles Martinez,56,Female,General Medicine,Dr. Sarah Jenkins,2026-01-27,Completed,Influenza,Oral Antibiotics,,,613.21
+PAT-1038,Thomas Thomas,6,Female,Pediatrics,Dr. Ananya Sharma,2026-01-12,Completed,Viral Infection,Nebulizer Therapy,2026-01-12,2026-01-25,16330.32
+PAT-1039,Linda Thomas,71,Male,Neurology,Dr. Michael Chang,2026-02-19,Completed,Epilepsy,Neurological Therapy,,,124.05
+PAT-1040,Matthew Harris,46,Male,Neurology,Dr. Michael Chang,2026-03-08,Completed,Epilepsy,Neurological Therapy,,,705.03
+PAT-1041,Nancy Taylor,82,Female,Oncology,Dr. Katherine Adams,2026-03-12,Completed,Lymphoma,Supportive Oncology,,,448.55
+PAT-1042,Matthew Davis,48,Female,Emergency,Dr. Sarah Jenkins,2026-02-26,Completed,Appendicitis,Emergency Stabilization,2026-02-26,2026-03-04,8311.97
+PAT-1043,John Davis,45,Male,General Medicine,Dr. Sarah Jenkins,2026-02-23,Completed,Gastroenteritis,Oral Antibiotics,2026-02-23,2026-03-09,45935.8
+PAT-1044,Charles Thompson,79,Male,Cardiology,Dr. Elena Rossi,2026-02-15,Completed,Heart Failure,Angioplasty Monitoring,,,656.28
+PAT-1045,Betty Martin,46,Female,Orthopedics,,2026-02-25,Completed,Spinal Stenosis,Physical Therapy,,,702.64
+PAT-1046,Lisa Garcia,21,Female,Dermatology,Dr. Lisa Ray,2026-03-17,Completed,Eczema,Topical Corticosteroid,,,219.06
+PAT-1047,Joseph Garcia,66,Female,Cardiology,Dr. Elena Rossi,2026-01-28,Completed,Arrhythmia,Angioplasty Monitoring,2026-01-28,2026-02-11,43684.13
+PAT-1048,Jessica Smith,46,Male,Cardiology,Dr. Elena Rossi,2026-01-06,Completed,Coronary Artery Disease,Medication Therapy,,,573.58
+PAT-1049,Linda Jones,45,Female,Dermatology,Dr. Lisa Ray,2026-02-02,Completed,Contact Dermatitis,Phototherapy,,,665.99
+PAT-1050,Patricia Harris,3,Male,Pediatrics,Dr. Ananya Sharma,2026-02-09,Completed,Asthma,Pediatric Observation,,,264.78
+PAT-1051,Charles Thompson,56,Male,Orthopedics,Dr. David Miller,2026-03-14,Completed,Ligament Tear,Arthroscopic Surgery,,,390.52
+PAT-1052,Thomas Lee,71,Female,Oncology,Dr. Katherine Adams,2026-01-14,Completed,Colorectal Polyp,Supportive Oncology,,,455.61
+PAT-1053,John Wilson,11,Female,Pediatrics,Dr. Ananya Sharma,2026-03-01,Completed,Ear Infection,Pediatric Observation,,,726.43
+PAT-1054,Robert Rodriguez,77,Female,Dermatology,Dr. Lisa Ray,2026-02-13,Completed,Psoriasis,Topical Corticosteroid,,,379.02
+PAT-1055,David Hernandez,19,Male,Emergency,Dr. Sarah Jenkins,2026-01-11,Completed,Severe Dehydration,Surgical Intervention,,,295.44
+PAT-1056,,20,Male,Dermatology,Dr. Lisa Ray,2026-02-07,Completed,Contact Dermatitis,Cryotherapy,,,389.38
+PAT-1057,Sarah Taylor,60,Female,Oncology,Dr. Katherine Adams,2026-02-28,Completed,Colorectal Polyp,Chemotherapy Protocol,2026-02-28,2026-03-04,11634.51
+PAT-1058,Matthew Thompson,5,Female,Pediatrics,Dr. Ananya Sharma,2026-02-05,Completed,Ear Infection,Antibiotic Course,,,336.26
+PAT-1059,Barbara Garcia,34,Female,Emergency,Dr. James Patel,2026-01-06,Pending,Appendicitis,IV Fluid Resuscitation,,,585.64
+PAT-1060,Matthew Thomas,54,Female,Neurology,Dr. Michael Chang,2026-03-03,Completed,Epilepsy,Neurological Therapy,2026-03-03,2026-03-17,43272.12
+PAT-1061,Richard Thomas,37,Male,Neurology,Dr. Michael Chang,2026-03-14,Cancelled,Migraine,Neurological Therapy,,,678.04
+PAT-1062,Karen Martin,75,Female,Orthopedics,Dr. David Miller,2026-02-08,Completed,Spinal Stenosis,Physical Therapy,,,163.97
+PAT-1063,Lisa Brown,51,Male,Orthopedics,Dr. David Miller,2026-01-21,Completed,Fracture - Tibia,Cast Immobilization,2026-01-21,2026-01-29,18246.39
+PAT-1064,Mary Davis,76,Male,Emergency,Dr. Sarah Jenkins,2026-01-30,Cancelled,Chest Pain,Surgical Intervention,,,284.11
+PAT-1065,John Rodriguez,2,Male,Pediatrics,Dr. Ananya Sharma,2026-02-09,Completed,Ear Infection,Pediatric Observation,2026-02-09,2026-02-21,25509.24
+PAT-1066,David Taylor,28,Male,Dermatology,Dr. Lisa Ray,2026-02-25,Completed,Psoriasis,Topical Corticosteroid,2026-02-25,2026-03-08,27752.54
+PAT-1067,James Harris,40,Female,Emergency,Dr. James Patel,2026-03-08,Completed,Appendicitis,Emergency Stabilization,,,438.2
+PAT-1068,Anthony Thomas,62,Female,Neurology,Dr. Michael Chang,2026-02-12,Completed,Migraine,Neurological Therapy,2026-02-12,2026-02-24,32687.31
+PAT-1069,Richard Harris,29,Female,Cardiology,Dr. Elena Rossi,2026-02-02,Completed,Heart Failure,Beta-Blocker Titration,,,120.84
+PAT-1070,Margaret Moore,24,Male,Dermatology,Dr. Lisa Ray,2026-03-08,Completed,Skin Lesion,Phototherapy,,,157.68
+PAT-1071,David Moore,9,Female,Pediatrics,Dr. Ananya Sharma,2026-01-16,Completed,Viral Infection,Nebulizer Therapy,2026-02-15,2026-02-10,6375.91
+PAT-1072,Linda Brown,37,Female,Dermatology,Dr. Lisa Ray,2026-02-07,Completed,Psoriasis,Cryotherapy,,,835.58
+PAT-1073,Linda Anderson,5,Male,Pediatrics,Dr. Ananya Sharma,2026-01-09,Completed,Asthma,Pediatric Observation,,,490.65
+PAT-1074,Anthony Smith,80,Male,Emergency,Dr. Sarah Jenkins,2026-02-27,Completed,Appendicitis,Surgical Intervention,,,516.7
+PAT-1075,Joseph Hernandez,67,Male,Orthopedics,Dr. David Miller,2026-02-22,Completed,Spinal Stenosis,Arthroscopic Surgery,,,398.3
+PAT-1076,Nancy Lee,2,Male,Pediatrics,Dr. Ananya Sharma,2026-03-06,Pending,Ear Infection,Antibiotic Course,,,441.42
+PAT-1077,Thomas Anderson,70,Male,Cardiology,Dr. Robert Wilson,2026-01-10,Completed,Arrhythmia,Angioplasty Monitoring,,,410.16
+PAT-1078,Robert Hernandez,80,Male,General Medicine,Dr. Marcus Vance,2026-01-09,Completed,Influenza,Insulin Management,,,436.8
+PAT-1079,Patricia Harris,39,Female,Neurology,Dr. Michael Chang,2026-01-04,Completed,Migraine,Anti-Seizure Medication,,,434.4
+PAT-1080,Linda Taylor,39,Male,General Medicine,Dr. Sarah Jenkins,2026-01-11,Completed,Gastroenteritis,Dietary Consultation,,,483.3
+PAT-1003,Charles Jones,50,Female,Orthopedics,Dr. David Miller,2026-02-02,Completed,Spinal Stenosis,Physical Therapy,,,235.32
+PAT-1006,Joseph Lopez,50,Female,Emergency,Dr. Sarah Jenkins,2026-02-08,Completed,Severe Dehydration,Surgical Intervention,2026-02-08,2026-02-15,17654.47
+PAT-1012,Daniel Martinez,53,Male,Cardiology,Dr. Elena Rossi,2026-03-14,Completed,Hypertension,Beta-Blocker Titration,,,727.97
+PAT-1016,Mark Martinez,46,Male,Orthopedics,Dr. David Miller,2026-02-02,Completed,Osteoarthritis,Arthroscopic Surgery,2026-02-02,2026-02-13,21016.0
+PAT-1023,Joseph Johnson,29,Female,Oncology,Dr. Katherine Adams,2026-02-11,Completed,Lymphoma,Chemotherapy Protocol,2026-02-11,2026-02-20,18373.25
+PAT-1029,Thomas Rodriguez,16,Female,Pediatrics,Dr. Ananya Sharma,2026-02-07,Completed,Ear Infection,Antibiotic Course,,,174.97
+PAT-1036,Matthew Davis,29,Female,General Medicine,Dr. Marcus Vance,2026-01-02,Completed,Type 2 Diabetes,Oral Antibiotics,,,666.78
+PAT-1043,David Jackson,31,Male,General Medicine,Dr. Marcus Vance,2026-03-02,Completed,Influenza,Dietary Consultation,2026-03-02,2026-03-04,4535.63
+PAT-1051,Daniel Martinez,35,Male,General Medicine,Dr. Sarah Jenkins,2026-01-05,Completed,Gastroenteritis,Insulin Management,2026-01-05,,6809.62
+PAT-1059,Nancy White,71,Male,General Medicine,Dr. Sarah Jenkins,2026-03-04,Completed,Influenza,Insulin Management,,,278.61
+PAT-1066,Joseph Davis,65,Female,Oncology,Dr. Katherine Adams,2026-01-08,Completed,Lymphoma,Chemotherapy Protocol,,,721.66
+PAT-1073,Robert Perez,24,Female,Orthopedics,Dr. David Miller,2026-02-01,Pending,Osteoarthritis,Cast Immobilization,,,524.57
+PAT-1001,Charles Miller,36,Male,Orthopedics,Dr. David Miller,2026-02-05,Completed,Osteoarthritis,Cast Immobilization,,,702.92
+PAT-1002,Patricia Perez,19,Female,Cardiology,Dr. Robert Wilson,2026-01-31,Completed,Hypertension,Medication Therapy,2026-01-31,2026-02-03,7229.99
+PAT-1003,Lisa Williams,64,Male,Dermatology,Dr. Lisa Ray,2026-02-27,Completed,Eczema,Phototherapy,,,752.9
+PAT-1004,Thomas Martinez,25,Female,Dermatology,Dr. Lisa Ray,2026-02-21,Completed,Eczema,Cryotherapy,,,443.8
+PAT-1005,Mark Williams,26,Male,Oncology,Dr. Katherine Adams,2026-02-05,Completed,Colorectal Polyp,Immunotherapy,,,507.31
+PAT-1006,Joseph Taylor,32,Male,General Medicine,Dr. Sarah Jenkins,2026-02-25,Completed,Pneumonia,Oral Antibiotics,2026-02-25,2026-03-05,23024.87
+PAT-1007,William Wilson,65,Male,Oncology,Dr. Katherine Adams,2026-03-02,Completed,Breast Neoplasm,Chemotherapy Protocol,,,663.55
+PAT-1008,Barbara Jones,33,Female,Cardiology,Dr. Elena Rossi,2026-02-15,Completed,Heart Failure,Beta-Blocker Titration,2026-02-15,2026-02-20,10043.93
+PAT-1009,Charles Taylor,79,Male,Orthopedics,Dr. David Miller,2026-01-14,Completed,Ligament Tear,Cast Immobilization,,,539.09
+PAT-1010,Betty Wilson,21,Male,Cardiology,Dr. Elena Rossi,2026-02-04,Completed,Arrhythmia,Angioplasty Monitoring,,,252.43
+PAT-1011,John Jackson,36,Male,General Medicine,Dr. Sarah Jenkins,2026-01-12,Completed,Pneumonia,Oral Antibiotics,,,368.85
+PAT-1012,Barbara Martinez,24,Male,Oncology,Dr. Katherine Adams,2026-01-21,Completed,Breast Neoplasm,Supportive Oncology,2026-01-21,2026-01-29,18536.18
+PAT-1013,Joseph Wilson,83,Male,Emergency,Dr. James Patel,2026-02-14,Completed,Appendicitis,IV Fluid Resuscitation,,,475.24
+PAT-1014,Nancy Martinez,68,Male,Cardiology,Dr. Robert Wilson,2026-01-01,Completed,Coronary Artery Disease,Medication Therapy,,,331.3
+PAT-1015,Patricia Smith,40,Male,Dermatology,Dr. Lisa Ray,2026-02-18,Completed,Contact Dermatitis,Phototherapy,,,607.68
+PAT-1016,Barbara Williams,73,Male,General Medicine,Dr. Sarah Jenkins,2026-02-28,Cancelled,Influenza,Dietary Consultation,,,415.23
+PAT-1017,Christopher Wilson,69,Male,Emergency,Dr. James Patel,2026-02-11,Completed,Severe Dehydration,IV Fluid Resuscitation,,,184.33
+PAT-1018,Margaret Brown,69,Male,Orthopedics,Dr. David Miller,2026-02-20,Completed,Ligament Tear,Cast Immobilization,2026-02-20,,8515.63
+PAT-1006,Jennifer Moore,77,Female,Orthopedics,Dr. David Miller,2026-02-04,Pending,Osteoarthritis,Arthroscopic Surgery,,,680.87
+PAT-1015,Michael Moore,69,Female,Orthopedics,Dr. David Miller,2026-02-26,Completed,Spinal Stenosis,Cast Immobilization,2026-02-26,2026-02-28,5106.22

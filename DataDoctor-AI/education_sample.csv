@@ -1,0 +1,123 @@
+Student_ID,Student_Name,Class,Department,Subject,Teacher_Name,Marks,Max_Marks,Attendance_Percentage,Exam_Date
+STU-2001,Aditya Gupta,Grade 11-Commerce,Senior Commerce,English,Mrs. Claire D'Souza,90.1,100,87.9,2026-02-07
+STU-2002,Deepa Reddy,Grade 12-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,63.8,100,94.4,2026-02-11
+STU-2003,Rahul Mishra,Grade 9-B,Secondary School,Biology,Prof. Anand Joshi,73.9,100,73.6,2026-03-11
+STU-2004,Nidhi Nair,Grade 10-B,Secondary School,Computer Science,Prof. Vikram Malhotra,76.3,100,72.9,2026-01-18
+STU-2005,Isha Roy,Grade 11-Science,Senior Science,Physics,Dr. Hema Sundaram,94.9,100,97.1,2026-02-21
+STU-2006,Tanvi Chauhan,Grade 12-Science,Senior Science,Biology,Prof. Anand Joshi,72.8,100,88.4,2026-03-04
+STU-2007,Aarav Roy,Grade 10-B,Secondary School,English,Mrs. Claire D'Souza,95.6,100,95.0,2026-02-26
+STU-2008,Abhishek Iyer,Grade 9-A,Secondary School,Chemistry,Dr. Sunita Rao,63.5,100,81.5,2026-01-14
+STU-2009,Isha Mishra,Grade 11-Science,Senior Science,Mathematics,Prof. Rajesh Kulkarni,73.4,100,72.8,2026-02-25
+STU-2010,Suresh Pandey,Grade 12-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,39.3,100,84.2,2026-02-18
+STU-2011,Kavita Mishra,Grade 9-A,Secondary School,Mathematics,Prof. Rajesh Kulkarni,145.0,100,89.8,2026-03-19
+STU-2012,Abhishek Roy,Grade 9-B,Secondary School,Computer Science,Prof. Vikram Malhotra,64.4,100,65.7,2026-03-09
+STU-2013,Nidhi Kumar,Grade 10-A,Secondary School,Physics,Dr. Hema Sundaram,69.5,100,60.8,2026-03-08
+STU-2014,Suresh Kumar,Grade 9-B,Secondary School,Physics,Dr. Hema Sundaram,82.9,100,77.4,2026-01-18
+STU-2015,Ananya Agarwal,Grade 11-Commerce,Senior Commerce,English,Mrs. Claire D'Souza,84.1,100,87.1,2026-02-20
+STU-2016,Rohan Chauhan,Grade 10-A,Secondary School,Chemistry,,55.5,100,86.4,2026-03-18
+STU-2017,Nidhi Nair,Grade 10-B,Secondary School,Mathematics,Prof. Rajesh Kulkarni,63.6,100,100.0,2026-02-01
+STU-2018,Aarav Sharma,Grade 12-Science,Senior Science,Computer Science,Prof. Vikram Malhotra,51.9,100,87.7,2026-02-22
+STU-2019,Aditi Chauhan,Grade 12-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,53.3,100,115.0,2026-02-21
+STU-2020,Aarav Kumar,Grade 11-Science,Senior Science,Chemistry,Dr. Sunita Rao,57.3,100,63.0,2026-03-02
+STU-2021,Kunal Verma,Grade 10-B,Secondary School,English,Mrs. Claire D'Souza,80.3,100,86.5,2026-01-25
+STU-2022,Vikram Nair,Grade 9-B,Secondary School,Chemistry,Dr. Sunita Rao,99.5,100,87.2,2026-02-04
+STU-2023,Tanvi Iyer,Grade 10-B,Secondary School,Physics,Dr. Hema Sundaram,52.3,100,87.6,2026-02-17
+STU-2024,Tanvi Reddy,Grade 11-Science,Senior Science,Physics,Dr. Hema Sundaram,80.0,100,79.0,2026-02-17
+STU-2025,Gaurav Verma,Grade 10-B,Secondary School,Mathematics,Prof. Rajesh Kulkarni,-8.0,100,79.2,2026-03-07
+STU-2026,Siddharth Verma,Grade 11-Science,Senior Science,Computer Science,Prof. Vikram Malhotra,62.3,100,57.8,2026-03-10
+STU-2027,Riya Verma,Grade 9-A,Secondary School,Biology,Prof. Anand Joshi,93.3,100,76.8,2026-01-28
+STU-2028,Divya Verma,Grade 9-A,Secondary School,Computer Science,Prof. Vikram Malhotra,86.9,100,73.1,2026-01-25
+STU-2029,Abhishek Patel,Grade 12-Commerce,Senior Commerce,Mathematics,Prof. Rajesh Kulkarni,65.8,100,83.5,2026-03-11
+STU-2030,Abhishek Das,Grade 9-B,Secondary School,Chemistry,Dr. Sunita Rao,,100,84.4,2026-03-19
+STU-2031,Priya Joshi,Grade 10-B,Secondary School,Computer Science,Prof. Vikram Malhotra,86.1,100,98.9,2026-02-03
+STU-2032,Siddharth Kumar,Grade 9-A,Secondary School,Physics,Dr. Hema Sundaram,99.5,100,68.1,2026-03-16
+STU-2033,Suresh Joshi,Grade 9-B,Secondary School,English,Mrs. Claire D'Souza,69.5,100,83.7,2026-03-16
+STU-2034,Suresh Kumar,Grade 12-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,99.5,100,100.0,2026-03-08
+STU-2035,Riya Pandey,Grade 9-B,Secondary School,Chemistry,Dr. Sunita Rao,65.0,100,87.4,2026-01-17
+STU-2036,Priya Reddy,Grade 9-A,Secondary School,Mathematics,Prof. Rajesh Kulkarni,68.6,100,-5.0,2026-02-28
+STU-2037,Kunal Agarwal,Grade 12-Science,Senior Science,Physics,Dr. Hema Sundaram,81.5,100,62.4,2026-02-21
+STU-2038,Abhishek Verma,Grade 10-B,Secondary School,Chemistry,Dr. Sunita Rao,62.9,100,89.2,2026-02-10
+STU-2039,Rahul Das,Grade 10-A,Secondary School,English,Mrs. Claire D'Souza,80.8,100,94.2,2026-02-03
+STU-2040,Suresh Chauhan,Grade 9-A,Secondary School,Physics,Dr. Hema Sundaram,69.9,100,86.7,2026-02-18
+STU-2041,Varun Chauhan,Grade 9-A,Secondary School,Biology,Prof. Anand Joshi,86.8,100,94.6,2026-02-26
+STU-2042,Gaurav Roy,Grade 11-Science,Senior Science,Mathematics,Prof. Rajesh Kulkarni,59.0,100,86.7,2026-02-01
+STU-2043,Tanvi Sharma,Grade 11-Commerce,Senior Commerce,English,Mrs. Claire D'Souza,75.0,100,,2026-02-28
+STU-2044,Ananya Iyer,Grade 9-A,Secondary School,Physics,Dr. Hema Sundaram,80.3,100,84.1,2026-03-01
+STU-2045,Manish Singh,Grade 10-A,Secondary School,Biology,Prof. Anand Joshi,61.1,100,65.9,2026-03-07
+STU-2046,Amit Iyer,Grade 10-B,Secondary School,Computer Science,Prof. Vikram Malhotra,46.2,100,71.8,2026-01-27
+STU-2047,Gaurav Mishra,Grade 12-Commerce,Senior Commerce,Mathematics,Prof. Rajesh Kulkarni,86.6,100,78.4,2026-03-18
+STU-2048,Ananya Verma,Grade 9-B,Secondary School,Computer Science,Prof. Vikram Malhotra,65.0,100,66.3,2026-03-13
+STU-2049,Pooja Roy,Grade 11-Commerce,Senior Commerce,Computer Science,Prof. Vikram Malhotra,68.3,100,94.2,2026-03-12
+STU-2050,Aditi Kumar,Grade 12-Commerce,Senior Commerce,Economics,Prof. Ramesh Sen,54.9,100,93.9,2026-03-12
+STU-2051,Priya Agarwal,Grade 9-A,Secondary School,Computer Science,Prof. Vikram Malhotra,43.9,100,89.8,2026-02-27
+STU-2052,Sneha Patel,Grade 10-B,Secondary School,Computer Science,Prof. Vikram Malhotra,45.5,100,79.5,2026-03-04
+STU-2053,Shreya Das,Grade 10-A,Secondary School,Computer Science,Prof. Vikram Malhotra,96.8,100,90.1,2026-01-23
+STU-2054,Aarav Mishra,Grade 11-Science,Senior Science,English,Mrs. Claire D'Souza,76.5,100,88.8,2026-02-15
+STU-2055,Varun Pandey,Grade 10-B,Secondary School,English,Mrs. Claire D'Souza,49.4,100,77.5,2026-02-03
+STU-2056,Vikram Verma,Grade 10-B,Secondary School,Biology,Prof. Anand Joshi,78.6,100,88.2,2026-03-14
+STU-2057,Pooja Mishra,Grade 10-A,Secondary School,Physics,Dr. Hema Sundaram,81.1,100,93.7,2026-01-17
+STU-2058,Sneha Iyer,Grade 9-B,Secondary School,English,Mrs. Claire D'Souza,71.9,100,100.0,2026-01-10
+STU-2059,Karan Verma,Grade 10-A,Secondary School,Chemistry,Dr. Sunita Rao,76.1,100,100.0,2026-01-30
+STU-2060,Shreya Das,Grade 10-B,Secondary School,Computer Science,Prof. Vikram Malhotra,81.1,100,76.6,2026-02-21
+STU-2061,,Grade 11-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,60.0,100,79.9,2026-02-15
+STU-2062,Varun Das,Grade 10-A,Secondary School,Computer Science,Prof. Vikram Malhotra,93.9,100,75.3,2026-01-11
+STU-2063,Arjun Singh,Grade 12-Science,Senior Science,Physics,Dr. Hema Sundaram,71.9,100,95.9,2026-02-05
+STU-2064,Vikram Singh,Grade 9-B,Secondary School,Biology,Prof. Anand Joshi,95.4,100,72.4,2026-03-01
+STU-2065,Suresh Sharma,Grade 11-Science,Senior Science,Physics,Dr. Hema Sundaram,58.1,100,75.2,2026-03-02
+STU-2066,Ananya Saxena,Grade 11-Commerce,Senior Commerce,Computer Science,Prof. Vikram Malhotra,80.7,100,87.4,2026-02-18
+STU-2067,Nidhi Sharma,Grade 10-A,Secondary School,Mathematics,Prof. Rajesh Kulkarni,26.9,100,100.0,2026-03-15
+STU-2068,Rahul Shah,Grade 12-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,73.8,100,94.4,2026-01-11
+STU-2069,Divya Roy,Grade 10-B,Secondary School,Chemistry,Dr. Sunita Rao,82.2,100,77.3,2026-03-04
+STU-2070,Tanvi Roy,Grade 11-Commerce,Senior Commerce,Economics,Prof. Ramesh Sen,67.1,100,74.4,2026-01-15
+STU-2071,Nidhi Patel,Grade 11-Commerce,Senior Commerce,Mathematics,Prof. Rajesh Kulkarni,34.2,100,71.5,2026-01-17
+STU-2072,Rohan Roy,Grade 12-Science,Senior Science,Chemistry,Dr. Sunita Rao,76.8,100,100.0,2026-02-01
+STU-2073,Manish Agarwal,Grade 10-B,Secondary School,Physics,Dr. Hema Sundaram,59.0,100,83.1,2026-01-23
+STU-2074,Suresh Kumar,Grade 11-Commerce,Senior Commerce,Computer Science,Prof. Vikram Malhotra,82.0,100,85.2,2026-03-04
+STU-2075,Tanvi Nair,Grade 11-Science,Senior Science,Chemistry,Dr. Sunita Rao,48.0,100,76.3,2026-03-04
+STU-2004,Tanvi Shah,Grade 10-B,Secondary School,Biology,Prof. Anand Joshi,75.5,100,84.0,2026-02-26
+STU-2009,Manish Gupta,Grade 10-B,Secondary School,Chemistry,Dr. Sunita Rao,73.3,100,79.8,2026-02-18
+STU-2013,Rohan Reddy,Grade 11-Science,Senior Science,Physics,Dr. Hema Sundaram,57.2,100,98.7,2026-02-09
+STU-2020,Abhishek Verma,Grade 9-A,Secondary School,Chemistry,Dr. Sunita Rao,61.1,100,75.8,2026-03-09
+STU-2026,Karan Singh,Grade 12-Science,Senior Science,Biology,Prof. Anand Joshi,42.3,100,100.0,2026-03-04
+STU-2034,Rohan Pandey,Grade 9-B,Secondary School,Chemistry,Dr. Sunita Rao,65.7,100,95.6,2026-01-19
+STU-2042,Isha Gupta,Grade 10-A,Secondary School,Mathematics,Prof. Rajesh Kulkarni,73.5,100,90.4,2026-01-20
+STU-2051,Varun Mishra,Grade 11-Science,Senior Science,Physics,Dr. Hema Sundaram,71.8,100,63.8,2026-03-10
+STU-2001,Rohan Mishra,Grade 11-Science,Senior Science,Chemistry,Dr. Sunita Rao,88.5,100,71.8,2026-01-30
+STU-2002,Rohan Gupta,Grade 11-Science,Senior Science,Mathematics,Prof. Rajesh Kulkarni,84.9,100,68.8,2026-02-02
+STU-2003,Neha Saxena,Grade 9-A,Secondary School,Biology,Prof. Anand Joshi,81.5,100,85.4,2026-03-18
+STU-2004,Shreya Verma,Grade 10-B,Secondary School,Physics,Dr. Hema Sundaram,74.3,100,88.4,2026-02-28
+STU-2005,Vikram Das,Grade 10-A,Secondary School,Biology,Prof. Anand Joshi,82.9,100,72.8,2026-02-21
+STU-2006,Nidhi Shah,Grade 9-B,Secondary School,Mathematics,Prof. Rajesh Kulkarni,55.6,100,83.0,2026-03-19
+STU-2007,Kunal Roy,Grade 10-A,Secondary School,Computer Science,Prof. Vikram Malhotra,71.6,100,70.6,2026-03-21
+STU-2008,Siddharth Singh,Grade 10-A,Secondary School,Mathematics,Prof. Rajesh Kulkarni,67.1,100,77.9,2026-02-04
+STU-2009,Abhishek Joshi,Grade 9-A,Secondary School,English,Mrs. Claire D'Souza,94.3,100,75.2,2026-01-10
+STU-2010,Vikram Reddy,Grade 10-B,Secondary School,Chemistry,Dr. Sunita Rao,72.5,100,88.6,2026-01-16
+STU-2011,Kunal Gupta,Grade 10-B,Secondary School,Biology,Prof. Anand Joshi,82.1,100,74.2,2026-02-25
+STU-2012,Gaurav Patel,Grade 10-B,Secondary School,Chemistry,Dr. Sunita Rao,70.6,100,87.4,2026-03-07
+STU-2013,Kavita Mishra,Grade 11-Science,Senior Science,Computer Science,Prof. Vikram Malhotra,74.1,100,84.7,2026-01-14
+STU-2014,Priya Patel,Grade 9-B,Secondary School,Physics,Dr. Hema Sundaram,97.0,100,80.8,2026-03-01
+STU-2015,Deepa Reddy,Grade 9-A,Secondary School,Computer Science,Prof. Vikram Malhotra,73.9,100,80.3,2026-01-26
+STU-2016,Kunal Agarwal,Grade 9-B,Secondary School,Biology,Prof. Anand Joshi,60.2,100,87.4,2026-01-24
+STU-2017,Gaurav Mehta,Grade 11-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,66.1,100,64.3,2026-02-09
+STU-2018,Karan Pandey,Grade 10-A,Secondary School,Physics,Dr. Hema Sundaram,60.2,100,75.7,2026-02-11
+STU-2019,Tanvi Verma,Grade 10-B,Secondary School,Physics,Dr. Hema Sundaram,73.4,100,81.1,2026-03-08
+STU-2020,Divya Nair,Grade 11-Science,Senior Science,Mathematics,Prof. Rajesh Kulkarni,88.0,100,57.0,2026-02-24
+STU-2021,Amit Chauhan,Grade 12-Science,Senior Science,Physics,Dr. Hema Sundaram,62.7,100,87.9,2026-02-22
+STU-2022,Deepa Sharma,Grade 10-A,Secondary School,Chemistry,Dr. Sunita Rao,73.9,100,95.2,2026-03-18
+STU-2023,Abhishek Pandey,Grade 12-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,99.5,100,83.8,2026-02-21
+STU-2024,Amit Joshi,Grade 9-A,Secondary School,Mathematics,Prof. Rajesh Kulkarni,95.5,100,78.5,2026-02-06
+STU-2025,Isha Shah,Grade 9-B,Secondary School,Chemistry,Dr. Sunita Rao,99.5,100,81.1,2026-03-10
+STU-2026,Aarav Chauhan,Grade 10-A,Secondary School,Computer Science,Prof. Vikram Malhotra,76.4,100,73.4,2026-02-15
+STU-2027,Meera Patel,Grade 9-B,Secondary School,Chemistry,Dr. Sunita Rao,67.5,100,70.0,2026-01-10
+STU-2028,Sneha Mehta,Grade 9-B,Secondary School,Physics,Dr. Hema Sundaram,87.2,100,83.9,2026-02-12
+STU-2029,Nidhi Mehta,Grade 9-B,Secondary School,Physics,Dr. Hema Sundaram,54.2,100,84.7,2026-03-03
+STU-2030,Vikram Gupta,Grade 11-Science,Senior Science,Computer Science,Prof. Vikram Malhotra,57.6,100,78.7,2026-02-22
+STU-2031,Abhishek Mishra,Grade 12-Science,Senior Science,Biology,Prof. Anand Joshi,66.5,100,76.7,2026-02-25
+STU-2032,Kavita Bose,Grade 12-Commerce,Senior Commerce,Economics,Prof. Ramesh Sen,88.8,100,85.9,2026-02-19
+STU-2033,Kavita Iyer,Grade 12-Commerce,Senior Commerce,Accountancy,Mr. Dinesh Bansal,73.7,100,78.3,2026-01-25
+STU-2034,Pooja Kumar,Grade 12-Science,Senior Science,English,Mrs. Claire D'Souza,75.3,100,53.7,2026-02-18
+STU-2035,Suresh Shah,Grade 9-B,Secondary School,English,Mrs. Claire D'Souza,77.5,100,85.1,2026-02-26
+STU-2036,Karan Saxena,Grade 10-B,Secondary School,Biology,Prof. Anand Joshi,71.0,100,100.0,2026-02-20
+STU-2037,Siddharth Iyer,Grade 12-Commerce,Senior Commerce,Economics,Prof. Ramesh Sen,52.4,100,82.6,2026-02-27
+STU-2008,Abhishek Iyer,Grade 9-A,Secondary School,Chemistry,Dr. Sunita Rao,63.5,100,81.5,2026-01-14
+STU-2021,Kunal Verma,Grade 10-B,Secondary School,English,Mrs. Claire D'Souza,80.3,100,86.5,2026-01-25

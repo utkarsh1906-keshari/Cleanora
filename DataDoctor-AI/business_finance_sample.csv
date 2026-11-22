@@ -1,0 +1,123 @@
+Transaction_ID,Date,Customer_ID,Product_Service,Category,Department,Region,Revenue,Expense,Budget,Actual,Payment_Method,Status
+TXN-8001,2026-02-06,CLI-4019,Cloud Hosting,Revenue - Cloud Hosting,Engineering & Tech,Latin America,9424.71,0.0,9379.73,9424.71,Bank Transfer,Completed
+TXN-8002,2026-01-11,CLI-4040,Software Subscription,Revenue - Software Subscription,Customer Success,Latin America,4532.5,0.0,4154.16,4532.5,Credit Card,Failed
+TXN-8003,2026-01-29,CLI-4013,Cloud Hosting,Revenue - Cloud Hosting,Sales & Marketing,North America,5038.42,0.0,5172.91,5038.42,Bank Transfer,Completed
+TXN-8004,2026-01-05,CLI-4029,Software Subscription,Revenue - Software Subscription,Sales & Marketing,Asia Pacific,9386.87,0.0,10314.04,9386.87,Wire Transfer,Completed
+TXN-8005,2026-02-21,CLI-4005,Software Subscription,Revenue - Software Subscription,Finance & Admin,Latin America,13984.63,0.0,16060.16,13984.63,Bank Transfer,Failed
+TXN-8006,2026-03-11,CLI-4011,Professional Services,Revenue - Professional Services,Sales & Marketing,Europe,15576.79,0.0,16898.66,15576.79,Wire Transfer,Completed
+TXN-8007,2026-01-09,CLI-4027,Consulting & Training,Revenue - Consulting & Training,Engineering & Tech,Europe,11870.38,0.0,11794.94,11870.38,Bank Transfer,Completed
+TXN-8008,2026-03-12,CLI-4024,Cloud Hosting,Revenue - Cloud Hosting,Operations,Asia Pacific,9792.19,0.0,9798.68,9792.19,ACH,Completed
+TXN-8009,2026-01-25,CLI-4013,Software Subscription,Revenue - Software Subscription,Customer Success,Latin America,8541.04,0.0,7284.03,8541.04,Credit Card,Completed
+TXN-8010,2026-02-21,CLI-4024,Professional Services,Revenue - Professional Services,Finance & Admin,Asia Pacific,813.76,0.0,932.34,813.76,ACH,Completed
+TXN-8011,2026-03-18,CLI-4013,Payroll & Salaries,Expense - Payroll & Salaries,Engineering & Tech,Latin America,0.0,4906.73,5682.48,4906.73,Wire Transfer,Failed
+TXN-8012,2026-03-03,CLI-4019,Payroll & Salaries,Expense - Payroll & Salaries,Customer Success,Asia Pacific,0.0,1895.49,1557.19,1895.49,Bank Transfer,Failed
+TXN-8013,2026-02-11,CLI-4003,Hardware Sales,Revenue - Hardware Sales,Customer Success,Asia Pacific,11980.47,0.0,13385.12,11980.47,Credit Card,Completed
+TXN-8014,2026-02-22,CLI-4015,Software Licenses,Expense - Software Licenses,Customer Success,Europe,0.0,1331.1,1353.23,1331.1,Credit Card,Completed
+TXN-8015,2026-02-18,CLI-4002,Legal & Professional,Expense - Legal & Professional,Operations,Asia Pacific,,4117.47,3670.7,4117.47,Wire Transfer,Pending
+TXN-8016,2026-01-13,CLI-4030,Hardware Sales,Revenue - Hardware Sales,Finance & Admin,North America,17112.38,0.0,15504.92,17112.38,Bank Transfer,Pending
+TXN-8017,2026-02-19,CLI-4021,Legal & Professional,Expense - Legal & Professional,Sales & Marketing,Latin America,0.0,1277.96,1443.35,1277.96,Wire Transfer,Completed
+TXN-8018,2026-02-22,CLI-4002,Cloud Infrastructure,Expense - Cloud Infrastructure,Sales & Marketing,Europe,0.0,2362.92,2927.18,2362.92,PayPal,Failed
+TXN-8019,2026-02-23,CLI-4008,Consulting & Training,Revenue - Consulting & Training,Operations,Europe,13340.2,0.0,12713.95,13340.2,Credit Card,Pending
+TXN-8020,2026-01-31,CLI-4027,Legal & Professional,Expense - Legal & Professional,Engineering & Tech,North America,-1500.0,6709.13,7646.93,6709.13,Wire Transfer,Completed
+TXN-8021,2026-02-01,CLI-4006,Software Subscription,Revenue - Software Subscription,Sales & Marketing,Middle East,14488.17,0.0,13315.63,14488.17,ACH,Completed
+TXN-8022,2026-02-19,CLI-4007,Professional Services,Revenue - Professional Services,Customer Success,Latin America,3015.68,0.0,2644.25,3015.68,ACH,Completed
+TXN-8023,2026-02-19,CLI-4029,Hardware Sales,Revenue - Hardware Sales,Sales & Marketing,Middle East,4535.51,0.0,4384.38,4535.51,Wire Transfer,Failed
+TXN-8024,2026-02-14,CLI-4006,Office Rent & Facilities,Expense - Office Rent & Facilities,Finance & Admin,Asia Pacific,0.0,6456.58,6643.6,6456.58,ACH,Completed
+TXN-8025,2026-01-08,CLI-4023,Professional Services,Revenue - Professional Services,Customer Success,Latin America,18265.03,0.0,15536.39,18265.03,Credit Card,Completed
+TXN-8026,2026-03-19,CLI-4019,Payroll & Salaries,Expense - Payroll & Salaries,Operations,Middle East,0.0,3712.42,4269.66,3712.42,ACH,Completed
+TXN-8027,2026-03-17,CLI-4021,Software Licenses,Expense - Software Licenses,Operations,Middle East,0.0,8447.93,8368.98,8447.93,ACH,Completed
+TXN-8028,2026-01-03,CLI-4015,Professional Services,Revenue - Professional Services,Operations,Asia Pacific,2666.94,0.0,2579.55,2666.94,ACH,Completed
+TXN-8029,2026-03-20,CLI-4026,Cloud Hosting,Revenue - Cloud Hosting,Operations,Middle East,2500.39,,2190.86,2500.39,Bank Transfer,Completed
+TXN-8030,2026-01-07,CLI-4034,Software Subscription,Revenue - Software Subscription,Sales & Marketing,North America,3818.23,0.0,3846.85,3818.23,ACH,Completed
+TXN-8031,2026-01-25,CLI-4008,Software Licenses,Expense - Software Licenses,Finance & Admin,Middle East,0.0,740.33,703.34,740.33,Bank Transfer,Completed
+TXN-8032,2026-03-08,CLI-4008,Office Rent & Facilities,Expense - Office Rent & Facilities,Engineering & Tech,Europe,0.0,8280.59,9281.44,8280.59,Wire Transfer,Completed
+TXN-8033,2026-02-06,CLI-4005,Cloud Hosting,Revenue - Cloud Hosting,Sales & Marketing,Europe,15588.09,0.0,17073.33,15588.09,ACH,Pending
+TXN-8034,2026-02-05,CLI-4022,Office Rent & Facilities,Expense - Office Rent & Facilities,Customer Success,Middle East,0.0,-400.0,4156.23,4870.83,Wire Transfer,Pending
+TXN-8035,2026-01-02,CLI-4025,Hardware Sales,Revenue - Hardware Sales,Operations,Europe,9464.78,0.0,10259.42,9464.78,Bank Transfer,Completed
+TXN-8036,2026-02-14,CLI-4034,Office Rent & Facilities,Expense - Office Rent & Facilities,Finance & Admin,Middle East,0.0,7393.07,8529.72,7393.07,ACH,Failed
+TXN-8037,2026-02-17,CLI-4019,Office Rent & Facilities,Expense - Office Rent & Facilities,Engineering & Tech,Middle East,0.0,4592.45,4689.16,4592.45,Bank Transfer,Failed
+TXN-8038,2026-03-09,CLI-4016,Software Subscription,Revenue - Software Subscription,Engineering & Tech,Asia Pacific,1883.36,0.0,1845.31,1883.36,Credit Card,Completed
+TXN-8039,2026-03-15,CLI-4002,Cloud Infrastructure,Expense - Cloud Infrastructure,Customer Success,Asia Pacific,0.0,6975.74,6059.15,6975.74,Credit Card,Completed
+TXN-8040,2026-01-10,CLI-4013,Consulting & Training,Revenue - Consulting & Training,Finance & Admin,Europe,1684.78,0.0,1451.95,1684.78,Wire Transfer,Completed
+TXN-8041,2026-03-04,CLI-4029,Cloud Hosting,Revenue - Cloud Hosting,Customer Success,Middle East,10099.81,0.0,10065.37,10099.81,ACH,Failed
+TXN-8042,2026-01-24,CLI-4019,Software Subscription,Revenue - Software Subscription,Operations,Europe,11301.9,0.0,12071.66,11301.9,Credit Card,Failed
+TXN-8043,2026-01-01,CLI-4013,Hardware Sales,Revenue - Hardware Sales,Customer Success,Middle East,12447.96,0.0,13684.08,12447.96,PayPal,Completed
+TXN-8044,2026-01-02,CLI-4035,Cloud Infrastructure,Expense - Cloud Infrastructure,Finance & Admin,Asia Pacific,0.0,3482.97,3424.89,3482.97,Wire Transfer,Completed
+TXN-8045,2026-01-21,CLI-4021,Office Rent & Facilities,Expense - Office Rent & Facilities,Customer Success,Europe,0.0,5209.21,6325.61,5209.21,Wire Transfer,Pending
+TXN-8046,2026-03-11,,Cloud Infrastructure,Expense - Cloud Infrastructure,Finance & Admin,Asia Pacific,0.0,4155.71,4481.49,4155.71,Credit Card,Completed
+TXN-8047,2026-02-03,CLI-4020,Software Subscription,Revenue - Software Subscription,Engineering & Tech,Europe,14558.47,0.0,15772.97,14558.47,Wire Transfer,Completed
+TXN-8048,2026-01-22,CLI-4030,Software Subscription,Revenue - Software Subscription,Finance & Admin,Latin America,7166.88,0.0,7723.26,7166.88,Credit Card,Completed
+TXN-8049,2026-03-13,CLI-4036,Office Rent & Facilities,Expense - Office Rent & Facilities,Engineering & Tech,Middle East,0.0,576.24,631.03,576.24,Credit Card,Completed
+TXN-8050,2026-02-05,CLI-4031,Consulting & Training,Revenue - Consulting & Training,Engineering & Tech,Europe,1186.92,0.0,1357.87,1186.92,Bank Transfer,Completed
+TXN-8051,2026-02-22,CLI-4017,Software Licenses,Expense - Software Licenses,Engineering & Tech,Europe,0.0,8055.14,8321.96,8055.14,Wire Transfer,Completed
+TXN-8052,2026-01-13,CLI-4022,Marketing & Ads,Expense - Marketing & Ads,Engineering & Tech,Asia Pacific,0.0,8302.56,8934.11,8302.56,Bank Transfer,Pending
+TXN-8053,2026-02-19,CLI-4004,Office Rent & Facilities,Expense - Office Rent & Facilities,Engineering & Tech,North America,0.0,2731.15,2647.23,2731.15,PayPal,Pending
+TXN-8054,2026-02-08,CLI-4013,Professional Services,Revenue - Professional Services,Engineering & Tech,North America,15830.6,0.0,15599.68,15830.6,ACH,Completed
+TXN-8055,2026-01-06,CLI-4031,Cloud Hosting,Revenue - Cloud Hosting,Finance & Admin,Asia Pacific,14433.11,0.0,12764.28,14433.11,Wire Transfer,Completed
+TXN-8056,2026-02-28,CLI-4031,Marketing & Ads,Expense - Marketing & Ads,Operations,North America,0.0,3962.1,3536.75,3962.1,ACH,Pending
+TXN-8057,2026-02-10,CLI-4006,Hardware Sales,Revenue - Hardware Sales,Sales & Marketing,Latin America,7817.74,0.0,8950.89,7817.74,Credit Card,Completed
+TXN-8058,2026-02-10,CLI-4019,Cloud Hosting,Revenue - Cloud Hosting,Sales & Marketing,Europe,5397.11,0.0,4872.6,5397.11,Bank Transfer,Failed
+TXN-8059,2026-02-07,CLI-4027,Marketing & Ads,Expense - Marketing & Ads,Customer Success,Asia Pacific,0.0,2500.01,3071.4,2500.01,ACH,Completed
+TXN-8060,2026-02-16,CLI-4007,Consulting & Training,Revenue - Consulting & Training,Customer Success,Europe,10811.9,0.0,11986.89,10811.9,ACH,Pending
+TXN-8061,2026-01-14,CLI-4012,Professional Services,Revenue - Professional Services,Sales & Marketing,Latin America,17017.96,0.0,17749.19,17017.96,Bank Transfer,Completed
+TXN-8062,2026-03-15,CLI-4003,Software Subscription,Revenue - Software Subscription,Finance & Admin,Middle East,1924.6,0.0,2105.13,1924.6,Wire Transfer,Pending
+TXN-8063,2026-03-14,CLI-4028,Hardware Sales,,Sales & Marketing,Europe,15464.69,0.0,14745.91,15464.69,Bank Transfer,Completed
+TXN-8064,2026-01-07,CLI-4033,Software Licenses,Expense - Software Licenses,Customer Success,Latin America,0.0,7334.8,8234.3,7334.8,Wire Transfer,Completed
+TXN-8065,2026-02-23,CLI-4040,Consulting & Training,Revenue - Consulting & Training,Finance & Admin,North America,15503.47,0.0,16484.52,15503.47,PayPal,Completed
+TXN-8066,2026-01-16,CLI-4028,Cloud Hosting,Revenue - Cloud Hosting,Operations,Asia Pacific,16278.25,0.0,16589.52,16278.25,ACH,Completed
+TXN-8067,2026-02-03,CLI-4007,Consulting & Training,Revenue - Consulting & Training,Finance & Admin,Europe,17911.09,0.0,17329.77,17911.09,Wire Transfer,Completed
+TXN-8068,2026-01-13,CLI-4025,Hardware Sales,Revenue - Hardware Sales,Customer Success,Europe,7412.96,0.0,6420.8,7412.96,Wire Transfer,Completed
+TXN-8069,2026-03-04,CLI-4027,Cloud Hosting,Revenue - Cloud Hosting,Engineering & Tech,Latin America,8545.57,0.0,7524.17,8545.57,PayPal,Completed
+TXN-8070,2026-02-26,CLI-4027,Marketing & Ads,Expense - Marketing & Ads,Customer Success,Middle East,0.0,8103.02,9232.61,8103.02,Credit Card,Completed
+TXN-8071,2026-01-28,CLI-4028,Payroll & Salaries,Expense - Payroll & Salaries,Finance & Admin,Middle East,0.0,6560.93,5443.13,6560.93,Bank Transfer,Completed
+TXN-8072,2026-02-24,CLI-4007,Consulting & Training,Revenue - Consulting & Training,Sales & Marketing,Asia Pacific,13506.64,0.0,13613.65,13506.64,Wire Transfer,Failed
+TXN-8073,2026-02-17,CLI-4017,Software Subscription,Revenue - Software Subscription,Engineering & Tech,Latin America,7779.01,0.0,8167.01,7779.01,Wire Transfer,Failed
+TXN-8074,2026-01-23,CLI-4016,Office Rent & Facilities,Expense - Office Rent & Facilities,Finance & Admin,Asia Pacific,0.0,2908.83,2398.55,2908.83,Bank Transfer,Completed
+TXN-8075,2026-01-31,CLI-4034,Software Subscription,Revenue - Software Subscription,Finance & Admin,Middle East,18166.81,0.0,17456.37,18166.81,ACH,Failed
+TXN-8076,2026-02-06,CLI-4006,Software Subscription,Revenue - Software Subscription,Engineering & Tech,Asia Pacific,9199.33,0.0,8439.79,9199.33,Bank Transfer,Completed
+TXN-8077,2026-02-15,CLI-4003,Hardware Sales,Revenue - Hardware Sales,Customer Success,Asia Pacific,12294.48,0.0,13623.17,12294.48,Bank Transfer,Completed
+TXN-8078,2026-02-26,CLI-4015,Marketing & Ads,Expense - Marketing & Ads,Finance & Admin,Europe,0.0,1253.48,1540.37,1253.48,Bank Transfer,Completed
+TXN-8079,2026-01-21,CLI-4010,Hardware Sales,Revenue - Hardware Sales,Finance & Admin,Latin America,4534.32,0.0,4225.6,4534.32,PayPal,Completed
+TXN-8080,2026-02-21,CLI-4003,Cloud Hosting,Revenue - Cloud Hosting,Engineering & Tech,North America,5539.78,0.0,5419.09,5539.78,Bank Transfer,Completed
+TXN-8081,2026-03-08,CLI-4026,Marketing & Ads,Expense - Marketing & Ads,Operations,North America,0.0,3669.62,3646.57,3669.62,PayPal,Completed
+TXN-8082,2026-01-26,CLI-4036,Payroll & Salaries,Expense - Payroll & Salaries,Engineering & Tech,North America,0.0,5180.35,5946.2,5180.35,Credit Card,Completed
+TXN-8083,2026-01-15,CLI-4006,Payroll & Salaries,Expense - Payroll & Salaries,Finance & Admin,Latin America,0.0,1218.84,1432.94,1218.84,ACH,Completed
+TXN-8084,2026-02-20,CLI-4006,Payroll & Salaries,Expense - Payroll & Salaries,Engineering & Tech,Latin America,0.0,6496.64,6402.74,6496.64,ACH,Completed
+TXN-8085,2026-02-23,CLI-4035,Hardware Sales,Revenue - Hardware Sales,Engineering & Tech,Middle East,15734.58,0.0,15379.33,15734.58,PayPal,Pending
+TXN-8086,2026-01-23,CLI-4005,Professional Services,Revenue - Professional Services,Sales & Marketing,Europe,7915.4,0.0,6915.04,7915.4,Bank Transfer,Failed
+TXN-8087,2026-02-26,CLI-4008,Legal & Professional,Expense - Legal & Professional,Sales & Marketing,North America,0.0,7450.96,8841.04,7450.96,PayPal,Pending
+TXN-8088,2026-03-22,CLI-4009,Office Rent & Facilities,Expense - Office Rent & Facilities,Sales & Marketing,Latin America,0.0,6445.76,6735.04,6445.76,PayPal,Pending
+TXN-8089,2026-01-18,CLI-4030,Cloud Hosting,Revenue - Cloud Hosting,Operations,North America,12819.72,0.0,14497.27,12819.72,PayPal,Completed
+TXN-8090,2026-01-05,CLI-4022,Office Rent & Facilities,Expense - Office Rent & Facilities,Operations,Latin America,0.0,3492.47,3789.9,3492.47,PayPal,Completed
+TXN-8091,2026-02-21,CLI-4040,Consulting & Training,Revenue - Consulting & Training,Finance & Admin,Latin America,3034.04,0.0,2606.53,3034.04,Bank Transfer,Pending
+TXN-8092,2026-03-15,CLI-4039,Hardware Sales,Revenue - Hardware Sales,Sales & Marketing,Asia Pacific,16509.94,0.0,15848.87,16509.94,Credit Card,Completed
+TXN-8093,2026-01-14,CLI-4014,Cloud Infrastructure,Expense - Cloud Infrastructure,Operations,North America,0.0,3733.48,3617.26,3733.48,Wire Transfer,Failed
+TXN-8094,2026-01-10,CLI-4006,Legal & Professional,Expense - Legal & Professional,Operations,North America,0.0,959.51,1021.34,959.51,ACH,Failed
+TXN-8095,2026-03-18,CLI-4013,Professional Services,Revenue - Professional Services,Engineering & Tech,Asia Pacific,17806.53,0.0,16439.96,17806.53,Credit Card,Failed
+TXN-8096,2026-01-16,CLI-4005,Office Rent & Facilities,Expense - Office Rent & Facilities,Customer Success,Latin America,0.0,7942.31,6975.55,7942.31,Bank Transfer,Completed
+TXN-8097,2026-02-15,CLI-4014,Cloud Infrastructure,Expense - Cloud Infrastructure,Sales & Marketing,Latin America,0.0,4357.44,3914.64,4357.44,Credit Card,Completed
+TXN-8098,2026-01-16,CLI-4024,Hardware Sales,Revenue - Hardware Sales,Customer Success,Europe,15478.27,0.0,14329.02,15478.27,PayPal,Completed
+TXN-8099,2026-01-28,CLI-4019,Cloud Infrastructure,Expense - Cloud Infrastructure,Sales & Marketing,Europe,0.0,5343.69,6425.88,5343.69,Bank Transfer,Pending
+TXN-8100,2026-02-19,CLI-4014,Payroll & Salaries,Expense - Payroll & Salaries,Finance & Admin,North America,0.0,1508.93,1368.54,1508.93,Wire Transfer,Completed
+TXN-8101,2026-01-14,CLI-4021,Office Rent & Facilities,Expense - Office Rent & Facilities,Sales & Marketing,Europe,0.0,7104.91,6684.46,7104.91,ACH,Failed
+TXN-8102,2026-02-20,CLI-4004,Software Subscription,Revenue - Software Subscription,Operations,North America,11183.4,0.0,12516.28,11183.4,PayPal,Completed
+TXN-8103,2026-02-06,CLI-4026,Software Licenses,Expense - Software Licenses,Finance & Admin,Asia Pacific,0.0,6493.36,6470.3,6493.36,ACH,Completed
+TXN-8104,2026-02-06,CLI-4022,Professional Services,Revenue - Professional Services,Sales & Marketing,North America,7262.47,0.0,7486.85,7262.47,Bank Transfer,Completed
+TXN-8105,2026-03-04,CLI-4024,Office Rent & Facilities,Expense - Office Rent & Facilities,Sales & Marketing,Asia Pacific,0.0,3112.57,3599.59,3112.57,Bank Transfer,Completed
+TXN-8106,2026-01-20,CLI-4029,Payroll & Salaries,Expense - Payroll & Salaries,Operations,North America,0.0,6774.71,7011.63,6774.71,Credit Card,Pending
+TXN-8107,2026-03-15,CLI-4029,Cloud Hosting,Revenue - Cloud Hosting,Operations,Asia Pacific,17789.88,0.0,17554.96,17789.88,Credit Card,Pending
+TXN-8108,2026-01-20,CLI-4028,Legal & Professional,Expense - Legal & Professional,Customer Success,Europe,0.0,7374.38,9037.94,7374.38,Wire Transfer,Failed
+TXN-8109,2026-02-09,CLI-4002,Hardware Sales,Revenue - Hardware Sales,Operations,Middle East,13359.58,0.0,12424.77,13359.58,Bank Transfer,Completed
+TXN-8110,2026-02-12,CLI-4031,Consulting & Training,Revenue - Consulting & Training,Operations,Latin America,1264.36,0.0,1250.84,1264.36,PayPal,Completed
+TXN-8111,2026-02-01,CLI-4036,Hardware Sales,Revenue - Hardware Sales,Sales & Marketing,Europe,1606.45,0.0,1658.95,1606.45,ACH,Completed
+TXN-8112,2026-01-23,CLI-4031,Consulting & Training,Revenue - Consulting & Training,Sales & Marketing,Europe,7683.53,0.0,7800.32,7683.53,PayPal,Failed
+TXN-8113,2026-01-09,CLI-4028,Payroll & Salaries,Expense - Payroll & Salaries,Customer Success,Latin America,0.0,6590.41,6671.66,6590.41,Credit Card,Completed
+TXN-8114,2026-01-08,CLI-4037,Professional Services,Revenue - Professional Services,Finance & Admin,Asia Pacific,4736.49,0.0,5150.3,4736.49,Bank Transfer,Failed
+TXN-8115,2026-03-08,CLI-4003,Software Subscription,Revenue - Software Subscription,Finance & Admin,Latin America,4604.92,0.0,4382.2,4604.92,Wire Transfer,Completed
+TXN-8116,2026-03-10,CLI-4012,Consulting & Training,Revenue - Consulting & Training,Operations,Asia Pacific,9060.36,0.0,8534.69,9060.36,Wire Transfer,Completed
+TXN-8117,2026-03-17,CLI-4032,Hardware Sales,Revenue - Hardware Sales,Customer Success,Latin America,13364.7,0.0,11558.4,13364.7,ACH,Failed
+TXN-8118,2026-01-16,CLI-4008,Legal & Professional,Expense - Legal & Professional,Sales & Marketing,Latin America,0.0,6043.24,7078.06,6043.24,PayPal,Failed
+TXN-8119,2026-02-21,CLI-4019,Hardware Sales,Revenue - Hardware Sales,Engineering & Tech,Asia Pacific,16930.0,0.0,15560.44,16930.0,Bank Transfer,Completed
+TXN-8120,2026-03-06,CLI-4025,Cloud Infrastructure,Expense - Cloud Infrastructure,Sales & Marketing,Latin America,0.0,5956.04,5328.31,5956.04,Wire Transfer,Completed
+TXN-8007,2026-01-09,CLI-4027,Consulting & Training,Revenue - Consulting & Training,Engineering & Tech,Europe,11870.38,0.0,11794.94,11870.38,Bank Transfer,Completed
+TXN-8022,2026-02-19,CLI-4007,Professional Services,Revenue - Professional Services,Customer Success,Latin America,3015.68,0.0,2644.25,3015.68,ACH,Completed
